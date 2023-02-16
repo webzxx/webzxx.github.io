@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header {
+    padding: 0 30px;
+    background-color: #eee;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+
+nav,
+.dropdown-item {
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+.icon {
+    color: black;
+    padding: 0 5px;
+    font-size: 15px;
+}
+
+
+.hero-image_title {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 76px;
+}
+.hero-image_button {
+    background-color: black;
+    border-color: black;
+    border-radius: 4px;
+    height: 56px;
+    width: 100px;
+    text-decoration: none;
+    color: white;
+}
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.hero-image_image,
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.section-heading {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .section-heading {
+        font-size: 32px;
+    }
+}
+
+.product-item {
+    margin-bottom: 30px
+}
+
+.product-item__vendor {
+    font-size: 22px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #a4a4a4;
+    text-transform: uppercase;
+}
+
+.product-item__title {
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+    margin-bottom: 7.5px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.price {
+    font-size: 22px;
+}
+
+
+@media (min-width: 768px) {
+    input {
+        visibility: hidden;
+    }
+}
+
+.logo-icon {
+    color: white;
+}
