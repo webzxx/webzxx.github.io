@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-01-24T12:24:05.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YDuOSKlZIg-R3CztxkFF" version="20.8.10" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="472" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-0" target="mD8ZejLbBC9NQ9Tmbx5i-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-0" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-1" target="mD8ZejLbBC9NQ9Tmbx5i-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-1" value="firstnum =0&lt;br&gt;secondnum = 0&lt;br&gt;sum = 0&lt;br&gt;ave = 0" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-2" target="mD8ZejLbBC9NQ9Tmbx5i-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-2" value="INPUT&lt;br&gt;get firstnum()&lt;br&gt;get&amp;nbsp; secondnum()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="80" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-3" target="mD8ZejLbBC9NQ9Tmbx5i-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-3" value="sum = firstnum + secondnum" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-4" target="mD8ZejLbBC9NQ9Tmbx5i-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-4" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-5" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="720" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mD8ZejLbBC9NQ9Tmbx5i-11" target="mD8ZejLbBC9NQ9Tmbx5i-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-11" value="ave = sum / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="85" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mD8ZejLbBC9NQ9Tmbx5i-13" value="Flowchart 1: Averaging 2 Numbers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" width="210" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
