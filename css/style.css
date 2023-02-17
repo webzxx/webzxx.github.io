@@ -150,6 +150,56 @@ img {
     font-size: 22px;
 }
 
+.choose-size {
+    font-family: 'Fjalla One', sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.size-option {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.3rem;
+    gap: 0.3rem;
+}
+
+.size {
+    list-style: none;
+}
+
+.size-option {
+    list-style: none;
+}
+
+ul li label input {
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.size-option,
+.size {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.size-option,
+.size label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+    min-width: 54px;
+    height: 54px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+    border: thin solid #000;
+    margin-bottom: 0;
+}
+
 .sign-up {
     font-family: 'Asap Condensed', sans-serif;
     background-color: black;
