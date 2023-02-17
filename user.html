@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sole Support</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/logo-tab.jpg">
     <!-- Bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Css -->
@@ -48,7 +49,7 @@
                         </form>
                         <div class="icons d-flex align-items-center">
                             <a href="#"><ion-icon name="cart-outline" class="icon"></ion-icon></a>
-                            <a href="#"><ion-icon name="person-outline" class="icon"></ion-icon></a>
+                            <a href="user.html"><ion-icon name="person-outline" class="icon"></ion-icon></a>
                         </div>
                     </div>
             </div>
@@ -59,21 +60,26 @@
     <main>
         <article>
             <div class="login-section">
-                <section class="container">
-                    <div class="col-md-5 col-lg-4 py-5 px-3 mx-auto">
-                        <form action="" class="border border-danger border-3">
-                            <div class="">
-                                <h2 class="section-heading mb-3">Login</h2>
+                <section class="container d-flex justify-content-center">
+                    <div class="p-5 position-relative align-items-center">
+                        <div class="">
+                            <h2 class="section-heading mb-3">Login</h2>
+                        </div>
+                        <form class="reg">
+                            <div class="mb-3">
+                              <label for="email" class="form-label">Email</label>
+                              <input type="email" class="form-control email" id="email" placeholder="Enter..." required>
                             </div>
-                            <div class="mb-3 mt-3">
-                                <label for="email">Email:</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Enter...">
+                            <div class="mb-3">
+                              <label for="password" class="form-label">Password</label>
+                              <input type="password" class="form-control password" id="password" placeholder="Enter..." required>
                             </div>
-
-                            <div class="mt-3">
-                                <a href="#">Register</a>
+                            <button type="submit" class="login button button-primary">Submit</button>
+                            <div class="mt-2 d-flex reg justify-content-between">
+                                <a href="register.html" class="reg">Register</a>
+                                <a href="#" class="reg">Forgot your password?</a>
                             </div>
-                        </form>
+                          </form>
                     </div>
                 </section>
             </div>
@@ -82,7 +88,7 @@
                     <section class="container text-center p-5">
                         <div class="justify-content-around">
                             <h2 class="mb-1">Join our SoleClub & Get 10% Off
-                                <a href="#" class="button button-primary">
+                                <a href="register.html" class="sign-up button button-primary">
                                     <span class="ms-3">Sign up for free</span>
                                 </a>
                             </h2>

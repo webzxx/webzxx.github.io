@@ -136,9 +136,44 @@ img {
     font-size: 22px;
 }
 
+.sign-up {
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: black;
+    border-color: black;
+    border-radius: 4px;
+    width: 350px;
+    text-decoration: none;
+    color: white;
+}
+
+.login {
+    font-family: 'Asap Condensed', sans-serif;
+    background-color: black;
+    border-color: black;
+    border-radius: 4px;
+    width: 90px;
+    text-decoration: none;
+    color: white;
+}
+
+.reg {
+    font-family: 'Asap Condensed', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.email,
+.password {
+    width: 43rem;
+    border: 1px solid black;
+}
+
+.form-check-input {
+    border: 1px solid black;
+}
 
 @media (min-width: 768px) {
-    input {
+    .search-icon {
         visibility: hidden;
     }
 }
